@@ -1,2 +1,5 @@
 # autils
-Autils Package Contains Merlion Adasboard etc
+Autils Package Contains 
+  -Merlion
+  -aDasboard
+  -aCommands
