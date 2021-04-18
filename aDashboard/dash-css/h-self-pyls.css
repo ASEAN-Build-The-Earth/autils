@@ -1,0 +1,15 @@
+#parent {
+    list-style: none;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+#parent > li {
+    display: inline-block;
+    width: 300px;
+}
