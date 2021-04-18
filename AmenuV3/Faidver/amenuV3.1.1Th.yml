@@ -1,0 +1,1117 @@
+panels: 
+  #Amenu V3.1.1Th 
+  #Code Bassed on code writen by IOnly_ (Amenu V1 and V2)
+  #Version 3.x code belongs to S4ge_rites and StoneMc
+  #Code is open source feel free to modify to your own use
+  amenu: 
+    #main Amenu panel
+    perm: default
+    rows: '6'
+    title: '&c&lASEAN &f&lBTE &9&lUTILITIES &e&lMENU'
+    command: amenu
+    empty: STAINED_GLASS_PANE
+    emptyID: '4'
+    item:
+      '10':
+        material: COMPASS
+        name: '&6&lServer Menu'
+        lore:
+        - '&2&l-----SERVER INFORMATION-----'
+        - '&basean.my.to'
+        - '&bOnline : %cp-online-players%'
+        - '&bPING : %player_ping%'
+        - '&bWORLD : %player_world%'
+        - '&bPlayer Max : 20'
+        - '&bServer Location : Kuching, Malaysia'
+       
+        - '&2&l---------------------------'
+        - '&d>>> Click Here For Manage Server <<<'
+        redirect:
+          panel: amenu_svmn
+          force: false
+      '13':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjMxYTk5NGYyMDg0OWRjM2UzMWYwMWNkMzIzZTg5N2NhYTA3NWIwMTZiZDlmODVmZDg0ZjdlMGFmZTAxNGM2NSJ9fX0=
+        name: '&c&cAssociation &fof &9Southeast &eAsian &8Nations'
+        lore:
+        - '&d>>> Click Here For Information <<<'
+        redirect:
+          panel: amenu_inf
+          force: false
+      '16':
+        material: cps= self
+        name: '&c&9>> %cp-player-name% << &8Charactor'
+        lore:
+        - '&2Display Name :&2&l %cp-player-displayname%'
+        - '&8(aka. %cp-player-name%)'
+        - '&8Ranks : %luckperms_prefix%'
+      '28':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWE3NzlkZWUyYTZiMTk4OTcwYTEwZTcxYjJiNDc0ZjQ0N2RmYmUyZjEyMGZmMjIzN2M0N2ZkMTY3Y2Q0ZjFhNyJ9fX0=
+        name: '&9>> Server Warps <<'
+        lore:
+        - '&8&l---------------'
+        - '&b(Spawn, Creative, Trees Schems, WE Tutorial)'
+        redirect:
+          panel: amenu_svwarp
+          force: false
+
+      '30':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmE3OTE2ZTRhODUyZjdlNmYzZjNkZTE5YzdmYjU3Njg2YTM3YmNlODM0YmQ1NDY4NGE3ZGJlZjhkNTNmYiJ9fX0=
+        name: '&c>> Th&faila&9nd <<'
+        lore:
+          - '&7(Warps)'
+        redirect:
+          panel: amenu_th
+          force: false
+      '31':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1N2I5ZDdkZDA0MTY5NDc4Y2ZkYjhkMGI2ZmQwYjhjODJiNjU2NmJiMjgzNzFlZTlhN2M3YzE2NzFhZDBiYiJ9fX0=
+        name: '&c>> Viet&enam <<'
+        lore:
+        - '&7(Warps)'
+        redirect:
+          panel: amenu_vn
+          force: false
+      '32':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU0YjkwNDFkZWE2ZGI2ZGI0NDc1MGYxMzg1YTc0M2FkZjY1Mzc2N2I0Yjg4MDJjYWQ0YzU4NWRkM2Y1YmU0NiJ9fX0=
+        name: '&c>> Ma&flay&9sia <<'
+        lore:
+        - '&7(Warps)'
+        redirect:
+          panel: amenu_my
+          force: false
+      '34':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTAyODViZWEzYzhhMDJkYjEzOWZhOGVjNWNjNTg4NjE1YTk4NTUwNzI1ZjhlNjc2YzkzZmRiYzMzYjZiIn19fQ==
+        name: '&2>> Blocks / Item Panel <<'
+        lore:
+        - '&8&l-------------------'
+        - '&7- To Get a specific block or item'
+        - '&7- EpicHeads included'
+        - '&7- Custom Heads / Banner Menu'
+        redirect:
+          panel: amenu_bip
+          force: false
+      '39':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGI1ZWQxMWY3OTdmM2ZjNjFlYWY4ZGFmYjZiZjMyMzRkMzFiOTZhYjc1OTZiZDJkZjcyMmQyZWYzNDczYzI3In19fQ==
+        name: '&f>> Sing&capore <<'
+        lore:
+        - '&7(Warps)'
+        redirect:
+          panel: amenu_sg
+          force: false
+      '40':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2JlNjNmY2FhMDIwM2Y4MDQ2ZmI5NjM3NWQwNzlhNWMwOWI0MTYxZDAxMTlkNzE5NDU2NmU2ODljYWIxOGY2OCJ9fX0=
+        name: '&c>> Indo&fnesia <<'
+        lore:
+        - '&7(Warps)'
+        redirect:
+          panel: amenu_id
+          force: false
+      '41':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZjNTI2ZjlhMzM1YjYyZmViZTRlZjM3MzRiZTA2MGU5YTQ5MDZhYjE3OTJlMjI3OGI4OThhZmNmZDUxNWVhOCJ9fX0= 
+        name: '&c>> Cam&9bo&fdia <<'
+        lore:
+        - '&7(Warps)'
+        redirect:
+          panel: amenu_kh
+          force: false
+      '2':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '3':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '4':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '5':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '6':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '11':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '12':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '14':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '19':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '20':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '21':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '22':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '23':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '24':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '25':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '29':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '33':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '37':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '38':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '42':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '43':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '47':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '48':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '49':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '50':
+        material: STAINED_GLASS_PANE
+        ID: 3
+      '51':
+        material: STAINED_GLASS_PANE
+        ID: 14
+      '45':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTA1OWQ1OWViNGU1OWMzMWVlY2Y5ZWNlMmY5Y2YzOTM0ZTQ1YzBlYzQ3NmZjODZiZmFlZjhlYTkxM2VhNzEwIn19fQ==
+        commands:
+        - amenubruh
+        name: '&e&lBRUH BUTTON'
+  amenu_inf:
+    perm: default
+    rows: 6
+    title: '&c&lAMENU &d&lINFORMATION'
+    command: amenu_inf
+    empty: STAINED_GLASS_PANE
+    emptyID: '7'
+    item:
+      '13':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJmNmMwN2EzMjZkZWY5ODRlNzJmNzcyZWQ2NDU0NDlmNWVjOTZjNmNhMjU2NDk5YjVkMmI4NGE4ZGNlIn19fQ==
+        name: '&c&lASEAN BTE Youtube'
+        commands:
+        - amenuyt
+      '21':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGViNDYxMjY5MDQ0NjNmMDdlY2ZjOTcyYWFhMzczNzNhMjIzNTliNWJhMjcxODIxYjY4OWNkNTM2N2Y3NTc2MiJ9fX0=
+        name: '&1&lASEAN BTE Facebook Group'
+        commands:
+        - amenufb
+      '22':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzg3M2MxMmJmZmI1MjUxYTBiODhkNWFlNzVjNzI0N2NiMzlhNzVmZjFhODFjYmU0YzhhMzliMzExZGRlZGEifX19
+        name: '&9&lASEAN BTE Discord'
+        commands:
+        - amenudc
+      '23':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5M2I2NmE1OTVmNzhhZjNmNTFmNGVmYTRjMTMzNzViMWI5NThlNmY0YzUwN2E0N2M0ZmU1NjVjYzI3NSJ9fX0=
+        name: '&e&lPatreon'
+        commands:
+        - amenupt
+      '31':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWM4OGQ2MTYzZmFiZTdjNWU2MjQ1MGViMzdhMDc0ZTJlMmM4ODYxMWM5OTg1MzZkYmQ4NDI5ZmFhMDgxOTQ1MyJ9fX0=
+        name: '&6&lInstagram'
+        commands:
+        - amenuig
+      '45':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        redirect:
+          panel: amenu
+          force: false
+  amenu_svmn:
+    perm: moderator
+    rows: '6'
+    title: '&1&lServer Management Menu'
+    command: amenu_svmn
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    item:
+      '22':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZkZTNiZmNlMmQ4Y2I3MjRkZTg1NTZlNWVjMjFiN2YxNWY1ODQ2ODRhYjc4NTIxNGFkZDE2NGJlNzYyNGIifX19
+        name: '&c&lClose The Server'
+        commands:
+        - stop
+      '31':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY0MTY4MmY0MzYwNmM1YzlhZDI2YmM3ZWE4YTMwZWU0NzU0N2M5ZGZkM2M2Y2RhNDllMWMxYTI4MTZjZjBiYSJ9fX0=
+        name: '&e&lRestart The Server'
+        commands:
+        - restart
+      '45':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        redirect:
+          panel: amenu
+          force: false
+  amenu_svwarp:
+    perm: moderator
+    rows: '6'
+    title: '&1&lServer Warp'
+    command: amenu_svwarp
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    item:
+      '20':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODVmZmI1MjMzMmNiZmNiNWJlNTM1NTNkNjdjNzI2NDNiYTJiYjUxN2Y3ZTg5ZGVkNTNkNGE5MmIwMGNlYTczZSJ9fX0=
+        name: '&3&lSpawn'
+        lore:
+        - '&bWarp To Spawn'  
+        commands:
+        - warp spawn
+      '22':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjk1MGQ2MzA4Zjc3Zjc3YTI1NTVhZDQ4NjE4ODZkOWUyOTRjYjUwMWU5YWUwNWZjMzAxZjkxMzI4NzE1ZTNiYyJ9fX0=
+        name: '&2&lWorldEdit &6&lTutorial'
+        lore:
+        - '&aWarp To WorldEdit Tutorial'    
+        commands:
+        - warp worldedit-tutorial
+      '24':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1YjI3Y2U2MmNhODg3NDM4NDBhOTVkMWMzOTg2OGY0M2NhNjA2OTZhODRmNTY0ZmJkN2RkYTI1OWJlMDBmZSJ9fX0=
+        name: '&4&lCreative'
+        lore:
+        - '&cWarp To Crative'  
+        - '&cA place to build anything that you want' 
+        commands:
+        - warp creative        
+      '40':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTU4MzM3YTUyODVhNjQ1ODU0M2M3N2FhOGY5MGMyNzZhZTUzN2FkMTZhNGU5YWY4YjQ1NzMzZTk5ZjRjYmQifX19
+        name: '&2&lTrees'
+        lore:
+        - '&aWarp To Trees'  
+        - '&aA place to copy many types of the trees, rocks and more'  
+        commands:
+        - warp trees
+      '45':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        redirect:
+          panel: amenu
+          force: false
+  amenu_bip:
+    perm: builder
+    rows: '6'
+    title: '&6Blocks &f/ &2Item &fPanel'
+    command: amenu_bip
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    item:
+      '45':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        redirect:
+          panel: amenu
+          force: false
+      '0':
+        material: DIAMOND_BLOCK
+        name: '&2Minecraft secret blocks'
+        lore:
+        - '&6-----------------------'
+        - '&6Dotty Mushroom Block - 100'
+        - '&6Brown Mushroom Block - 99:14'
+        - '&6Red With White Dots - 100:14'
+        - '&6Mushroom Stalk Normal - 99:10'
+        - '&6Mushroom Stalk FullSided - 99:15'
+        - '&6-----------------------'
+        - '&6Full Sided Stone Slab - 43:8'
+        - '&6Secret Sand Block - 43:9'
+        - '&6Secret RedSand Block - 181:8'
+        - '&6-----------------------'
+        - '&6Nether Portal - 90:3'
+        - '&6End Portal Floor - 119'
+        - '&6End Portal Block - 209'
+        - '&6-----------------------'
+        - '&6Forever Burning Furnace - 62:9'
+        - '&6Forever On Redstone Lamp - 124'
+        - '&6Tiny Water - 9:7'
+        - '&6-----------------------'
+        - '&6Full Sided Oak - 17:12'
+        - '&6Full Sided Spruce - 17:13'
+        - '&6Full Sided Birch - 17:14'
+        - '&6Full Sided Jungle - 17:15'
+        - '&6Full Sided Acacia - 162:12'
+        - '&6Full Sided Dark Oak - 162:13'
+        - '&c---- Credit From Phats ----'
+      '4':
+        material: CONCRETE
+        name: '&6Blocks &f/ &2Item &fPanel'
+      '21':
+        material: 137
+        name: '&dUnappear Inventory Blocks'
+        lore:
+        - '&7To get blocks that hard to get'
+        - '&7or not appear in inventory.'
+        redirect:
+          panel: amenu_bip_uib
+          force: false
+      '22':
+        material: 35
+        ID: 14
+        name: '&4&lCustom Banner'
+        lore:
+        - '&cThis for Making Banner'
+        commands:
+        - bm
+      '23':
+        #material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTRhYWRhNGQ5ZmNlZGE5MDE4NjkxOGQ2Y2EzNWI5YTBlYWQ4ZTRiMTRjOWQ5NDI3MTU3ZWU5YjkzMzlkN2IxIn19fQ==
+        material: 35
+        ID: 14
+        name: '&4&lCustom Player Head'
+        lore:
+        - '&cThis for Custom Player Head that'
+        - '&cusually use in the server.'
+        - '&cNow listing recommended head.'
+      '40':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWY0YzIxZDE3YWQ2MzYzODdlYTNjNzM2YmZmNmFkZTg5NzMxN2UxMzc0Y2Q1ZDliMWMxNWU2ZTg5NTM0MzIifX19
+        name: '&c&l-E&6pi&ecH&ae&9ad&ds- &f(EpicHeads Plugins Addons)'
+        lore:
+        - '&7To Open EpicHeads to explore alot of'
+        - '&7"Custom Player Heads".'
+        commands:
+        - ehe
+  amenu_bip_uib: #Special blocks 
+    perm: builder
+    rows: '3'
+    title: '&dUnappear Inventory Blocks'
+    command: amenu_bip_uib
+    empty: STAINED_GLASS_PANE
+    emptyID: '3'
+    item:
+      '0':
+        material: 166
+        name: '&2Barrier Block'
+        commands:
+        - i 166 1
+      '1':
+        material: 137
+        name: '&2Command Block'
+        commands:
+        - i 137 1
+      '2':
+        material: 99
+        name: '&2Brown Mushroom Block'
+        commands:
+        - i 99 1
+      '3':
+        material: 100
+        name: '&2Red Mushroom Block'
+        commands:
+        - i 100 1 
+      '18':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        redirect:
+          panel: amenu_bip
+          force: false  
+ 
+ ###############Starting the countries here##############
+  amenu_th:
+    perm: default
+    rows: '6'
+    title: 'Thailand'
+    command: amenu_th
+    empty: STAINED_GLASS_PANE
+    emptyID: '15' 
+    item:      
+      '0':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '1':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '2':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '3':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '4':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '5':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '6':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '7':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '8':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '9':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '10':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '11':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '12':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '13':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmE3OTE2ZTRhODUyZjdlNmYzZjNkZTE5YzdmYjU3Njg2YTM3YmNlODM0YmQ1NDY4NGE3ZGJlZjhkNTNmYiJ9fX0=
+        name: '&cThailand'
+      '14':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '15':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '16':
+        material: STAINED_GLASS_PANE
+        ID: 7 
+      '17':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '18':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '19':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '20':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '21': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '22':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '23': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '24':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '25':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '26':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '27':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '28':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '29': ## #Central Thailand
+        material: CONCRETE
+        ID: 0
+        name: '&bCentral Thailand'
+        redirect:
+          panel: amenu_th_Central
+          force: false
+      '30': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '31': ##Northen
+        material: CONCRETE
+        ID: 0
+        name: '&bNorthern Thailand'
+        redirect:
+          panel: amenu_th_North
+          force: false
+      '32': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '33':
+        material: CONCRETE
+        ID: 0
+        name: '&bSouthern Thailand'
+        redirect:
+          panel: amenu_th_South
+          force: false
+      '34': ##
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '35':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '36':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '37':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '38':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '39':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '40':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '41':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '42':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '43':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '44':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '45':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        redirect:
+          panel: amenu
+          force: false
+      '46':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '47':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '48':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '49':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '50':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '51':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '52':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '53':
+        material: STAINED_GLASS_PANE
+        ID: 7
+
+  
+
+###################Thailand Regions###########
+  amenu_th_North: 
+    #North Region
+    perm: default
+    rows: '6'
+    title: '&Thailand North'
+    command: amenu_th_North
+    empty: STAINED_GLASS_PANE
+    emptyID: '15' 
+    item:      
+      '0':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '1':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '2':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '3':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '4':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '5':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '6':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '7':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '8':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '9':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '10':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '11':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '12':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '13':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmE3OTE2ZTRhODUyZjdlNmYzZjNkZTE5YzdmYjU3Njg2YTM3YmNlODM0YmQ1NDY4NGE3ZGJlZjhkNTNmYiJ9fX0=
+        name: '&cNorthern Thailand:'
+      '14':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '15':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '16':
+        material: STAINED_GLASS_PANE
+        ID: 7 
+      '17':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '18':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '19':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '20':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '21': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '22':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '23': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '24':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '25':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '26':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '27':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '28':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '29':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '30': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '31':
+        material: CONCRETE
+        ID: 0
+        name: '&bChiang Mai'
+        lore:
+        - Panel to be added
+        command:
+        - warp  th,chm,thaphae
+      '32':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '33': ## Chiang Rai
+        material: CONCRETE
+        ID: 0
+        name: '&bChiang Rai'
+        command:
+        - warp th,chr,mengrai
+      '34': ##  Chiang Mai
+        material: STAINED_GLASS_PANE
+        ID: 7
+        #redirect: 
+        #  panel: amenu_th_North
+        #  force: false
+      '35':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '36':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '37':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '38':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '39':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '40':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '41':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '42':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '43':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '44':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '45':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        redirect:
+          panel: amenu_th
+          force: false
+      '46':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '47':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '48':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '49':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '50':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '51':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '52':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '53':
+        material: STAINED_GLASS_PANE
+        ID: 7
+  amenu_th_Central:
+    perm: default
+    rows: '6'
+    title: '&Thailand Central'
+    command: amenu_th_Central
+    empty: STAINED_GLASS_PANE
+    emptyID: '15' 
+    item:      
+      '0':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '1':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '2':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '3':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '4':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '5':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '6':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '7':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '8':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '9':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '10':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '11':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '12':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '13':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmE3OTE2ZTRhODUyZjdlNmYzZjNkZTE5YzdmYjU3Njg2YTM3YmNlODM0YmQ1NDY4NGE3ZGJlZjhkNTNmYiJ9fX0=
+        name: '&cCentral Thailand:'
+      '14':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '15':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '16':
+        material: STAINED_GLASS_PANE
+        ID: 7 
+      '17':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '18':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '19':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '20':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '21': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '22':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '23': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '24':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '25':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '26':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '27':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '28':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '29': ## Bangkok
+        material: CONCRETE
+        ID: 0
+        name: '&bBangkok'
+        redirect: 
+          panel: amenu_th_Central_Bangkok
+          force: false
+      '30': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '31': ##  Bang Pu
+        material: CONCRETE
+        ID: 1
+        name: '&bBang Pu'
+        lore:
+        - Panel to be added
+        - Currently only one warp support click to warp
+        command:
+        - warp  th,bangpu
+      '32': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '33': ##Ayutthaya
+        material: CONCRETE
+        ID: 0
+        name: '&bAyutthaya'
+        redirect: 
+          panel: amenu_th_Central_Ayutthaya
+          force: false
+      '34':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '35':
+        material: CONCRETE
+        ID: 0
+        name: '&bRayong'
+        command:
+        - warp h,ry,leamthong
+        # redirect: 
+        # panel: amenu_th_Central_Rayong
+        # force: false
+      '36':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '37':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '38':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '39':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '40':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '41':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '42':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '43':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '44':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '45':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        redirect:
+          panel: amenu_th
+          force: false
+      '46':
+        material: CONCRETE
+        ID: 0
+      '47':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '48':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '49':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '50':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '51':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '52':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '53':
+        material: STAINED_GLASS_PANE
+        ID: 7
+############Thailand Cites#######
+
+#General Notes for future warps format
+        # material: STAINED_GLASS_PANE
+        # ID: 7
+        # name: '<Name>'
+        # command:
+        # - warp <warpname>
+
+  amenu_th_Central_Bangkok:
+    perm: default
+    rows: '1'
+    title: 'Bangkok'
+    command: amen u_th_Central_Bangkok
+    empty: STAINED_GLASS_PANE
+    emptyID: '15' 
+    item:      
+      '0':
+        material: CONCRETE
+        ID: 0
+        name: '&bDemocracy Monument'
+        command:
+        - warp th,bkk,democracy-monument
+      '1': #Lang Ram: th,bkk,langram
+        material: CONCRETE
+        ID: 0
+        name: '&bLang Ram'
+        command:
+        - warp th,bkk,langram
+      '2':
+        material: CONCRETE
+        ID: 0
+        name: '&bPhra Khanong'
+        command:
+        - warp th,bkk,phrakhanong
+      '3':
+        material: CONCRETE
+        ID: 0
+        name: '&bPhloen Chit'
+        command:
+        - warp th,bkk,plernchit
+      '4':
+        material: CONCRETE
+        ID: 0
+        name: '&bThrone Hall'
+        command:
+        - warp th,bangkok,throne-hall
+      '5':
+        material: CONCRETE
+        ID: 0
+        name: '&bSuan Luang'
+        command:
+        - warp  th,bkk,suanluang-n
+      '6': 
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        redirect:
+          panel: amenu
+          force: false
+      '7':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        redirect:
+          panel: amenu
+          force: false
+      '8':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        redirect:
+          panel: amenu
+          force: false
+      '9':
+        material: cps= eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODY1MmUyYjkzNmNhODAyNmJkMjg2NTFkN2M5ZjI4MTlkMmU5MjM2OTc3MzRkMThkZmRiMTM1NTBmOGZkYWQ1ZiJ9fX0=
+        name: '&cBack'
+        redirect:
+          panel: amenu
+          force: false
+
+  amenu_th_Central_Ayutthaya:
+    perm: default
+    rows: '1'
+    title: 'Ayutthaya'
+    command: amenu_th_Central_Ayutthaya
+    empty: STAINED_GLASS_PANE
+    emptyID: '15' 
+    item:      
+      '0': #Wangboran: th,ayu,wangboran
+        material: CONCRETE
+        ID: 0
+        name: '&bWangboran'
+        command:
+        - warp th,ayu,wangboran
+      '1': #Wat Mahathat: th,ayu,watmahathat
+        material: CONCRETE
+        ID: 0
+        name: '&bWat Mahathat'
+        command:
+        - warp  th,ayu,watmahathat
+      '2': # Wat Phrasrisanphet: th,ayu,watphrasrisanphet
+        material: CONCRETE
+        ID: 0
+        name: '&bWat Phrasrisanphet'
+        command:
+        - warp th,ayu,watphrasrisanphet
+      '3': # Bang Pa-In: th,bangpa-in
+        material: CONCRETE
+        ID: 0
+        name: '&bBang Pa-In'
+        command:
+        - warp th,bangpa-in
+      '4':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '5':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '6': 
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '7':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '8':
+        material: STAINED_GLASS_PANE
+        ID: 7
+      '9':
+        material: STAINED_GLASS_PANE
+        ID: 7
