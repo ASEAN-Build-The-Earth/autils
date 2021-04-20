@@ -1,5 +1,6 @@
 # autils
 Autils Package Contains 
   -Merlion
-  -aDasboard
+  -aMenu
+  -aDashboard
   -aCommands
