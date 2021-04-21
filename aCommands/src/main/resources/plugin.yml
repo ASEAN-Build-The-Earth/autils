@@ -5,3 +5,9 @@ commands:
   amenubruh:
     description: bruh to whole server.
     usage: /<command>
+  autils-info:
+    description: display the version of aUtils that cureently running on.
+    usage: /<command>
+  bemonke:
+    description: transform you to be monke!!.
+    usage: /<command>
