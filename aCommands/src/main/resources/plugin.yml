@@ -1,0 +1,7 @@
+name: aCommands
+version: ${project.version}
+main: com.ionly.acommands.aCommands
+commands:
+  amenubruh:
+    description: bruh to whole server.
+    usage: /<command>
