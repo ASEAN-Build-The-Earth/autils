@@ -1,4 +1,4 @@
-//index.js - Main file of StoneMcNetwork discord bot
+//index.js - Main file of ASEAN discord bot
 //Made by CookieGMVN, StoneMc
 //version 0.2
 const fs = require('fs');
